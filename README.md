@@ -3,7 +3,6 @@
   aim-error-at
 </h1>
 
-### [Docs](http://node-machine.org/machinepack-process) &nbsp; [FAQ](http://node-machine.org/implementing/FAQ)  &nbsp;  [Newsgroup](https://groups.google.com/forum/?hl=en#!forum/node-machine)
 
 Build or modify an Error so that it is aimed towards the specified exit.
 
@@ -82,7 +81,7 @@ module.exports = {
 
 ## About  &nbsp; [![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/node-machine/general?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-Learn more at <a href="http://node-machine.org/implementing/FAQ" title="Machine Project FAQ (for implementors)">http://node-machine.org/implementing/FAQ</a>.
+Learn more at <a href="http://node-machine.org/implementing/FAQ" title="Machine Project FAQ (for implementors)">http://node-machine.org/implementing/FAQ</a> or check out the [project newsgroup](https://groups.google.com/forum/?hl=en#!forum/node-machine).
 
 ## License
 
