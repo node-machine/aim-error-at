@@ -26,7 +26,7 @@ var aimErrorAt = require('aim-error-at');
 #### Modify existing error
 
 ```javascript
-var err = aimErrorAt('notCandy', new Error('Hello));
+var err = aimErrorAt('notCandy', new Error('Hello'));
 // => assert(err.exit === 'notCandy' && err.message === 'Hello')
 // => assert(err.constructor.name === 'Error')
 ```
