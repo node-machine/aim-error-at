@@ -17,8 +17,8 @@ var isUndefined = require('lodash.isUndefined');
  * • Builds and returns an Error instance from the specified error message, setting its `exit` to the provided exitCodeName.
  * • Or, if an Error was provided instead, modifies its `exit` property to the provided exitCodeName and returns that.
  *
- * @param  {String} exitCodeName
- * @param  {===} errMsgOrError
+ * @required  {String} exitCodeName
+ * @optional  {===} errMsgOrError
  *
  * @returns {Error}
  */
