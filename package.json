@@ -1,6 +1,6 @@
 {
   "name": "aim-error-at",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Build or modify an Error so that it is aimed towards the specified exit. (useful in synchronous machines, big switch statements, and loops inside of try/catch blocks)",
   "main": "index.js",
   "scripts": {
