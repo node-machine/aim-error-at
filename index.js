@@ -4,6 +4,7 @@
 
 var isString = require('lodash.isstring');
 var isError = require('lodash.iserror');
+var isUndefined = require('lodash.isUndefined');
 
 
 /**
@@ -39,7 +40,7 @@ module.exports = function aimErrorAt (exitCodeName, errMsgOrError){
     return err;
   }
   // If no Error or error message was provided, build a default error and throw that.
-  else if (isError(errMsgOrError)) {
+  else if (isUndefined(errMsgOrError)) {
     var defaultErr = new Error();
     defaultErr.exit = exitCodeName;
     return defaultErr;
