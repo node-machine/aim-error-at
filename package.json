@@ -1,0 +1,27 @@
+{
+  "name": "aim-error-at",
+  "version": "0.1.0",
+  "description": "Build or modify an Error so that it is aimed towards the specified exit. (useful in synchronous machines, big switch statements, and loops inside of try/catch blocks)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/node-machine/aim-error-at.git"
+  },
+  "keywords": [
+    "error",
+    "error-handling",
+    "stack-trace",
+    "machine",
+    "node-machine",
+    "sails.js"
+  ],
+  "author": "Mike McNeil",
+  "license": "MIT",
+  "dependencies": {
+    "lodash.iserror": "3.1.1",
+    "lodash.isstring": "4.0.1"
+  }
+}
