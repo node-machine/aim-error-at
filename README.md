@@ -9,9 +9,9 @@ Build or modify an Error so that it is aimed towards the specified exit.
 Useful in synchronous machines, big switch statements, and loops inside of try/catch blocks. Also useful outside of the context of machines for assigning useful error codes to the errors sent back by ANY JavaScript function.
 
 
-## Installation &nbsp; [![NPM version](https://badge.fury.io/js/machinepack-process.svg)](http://badge.fury.io/js/machinepack-process) [![Build Status](https://travis-ci.org/treelinehq/machinepack-process.png?branch=master)](https://travis-ci.org/treelinehq/machinepack-process)
+## Installation &nbsp; [![NPM version](https://badge.fury.io/js/aim-error-at.svg)](http://badge.fury.io/js/aim-error-at)
 
-```sh
+```bash
 $ npm install aim-error-at --save --save-exact
 ```
 
