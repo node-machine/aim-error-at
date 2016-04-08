@@ -8,13 +8,14 @@ Build or modify an Error so that it is aimed towards the specified exit.
 Useful in synchronous machines, big switch statements, and loops inside of try/catch blocks. Also useful outside of the context of machines for assigning useful error codes to the errors sent back by ANY JavaScript function.
 
 
+[![NPM](https://nodei.co/npm/aim-error-at.png?downloads=true&stars=true)](https://nodei.co/npm/aim-error-at/)
+
+
 ## Installation &nbsp; [![NPM version](https://badge.fury.io/js/aim-error-at.svg)](http://badge.fury.io/js/aim-error-at)
 
 ```bash
 $ npm install aim-error-at --save --save-exact
 ```
-
-[![NPM](https://nodei.co/npm/aim-error-at.png?downloads=true&stars=true)](https://nodei.co/npm/aim-error-at/)
 
 
 ## Usage
