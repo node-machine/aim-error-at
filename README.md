@@ -3,7 +3,6 @@
   aim-error-at
 </h1>
 
-
 Build or modify an Error so that it is aimed towards the specified exit.
 
 Useful in synchronous machines, big switch statements, and loops inside of try/catch blocks. Also useful outside of the context of machines for assigning useful error codes to the errors sent back by ANY JavaScript function.
@@ -14,6 +13,8 @@ Useful in synchronous machines, big switch statements, and loops inside of try/c
 ```bash
 $ npm install aim-error-at --save --save-exact
 ```
+
+[![NPM](https://nodei.co/npm/aim-error-at.png?downloads=true&stars=true)](https://nodei.co/npm/aim-error-at/)
 
 
 ## Usage
@@ -192,9 +193,9 @@ async.each(req.param('candies'), function (thisCandy, next) {
 ```
 
 
-## About  &nbsp; [![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/node-machine/general?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+## About &nbsp; [![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/node-machine/general?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-Learn more at <a href="http://node-machine.org/implementing/FAQ" title="Machine Project FAQ (for implementors)">http://node-machine.org/implementing/FAQ</a> or check out the [project newsgroup](https://groups.google.com/forum/?hl=en#!forum/node-machine).
+Learn more about the project and our goals at <a href="http://node-machine.org/implementing/FAQ" title="Machine Project FAQ (for implementors)">http://node-machine.org/implementing/FAQ</a> or check out the [project newsgroup](https://groups.google.com/forum/?hl=en#!forum/node-machine).
 
 
 ## License
