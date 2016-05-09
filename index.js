@@ -4,7 +4,7 @@
 
 var isString = require('lodash.isstring');
 var isError = require('lodash.iserror');
-var isUndefined = require('lodash.isUndefined');
+var isUndefined = require('lodash.isundefined');
 
 
 /**
