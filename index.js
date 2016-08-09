@@ -1,13 +1,4 @@
 /**
- * Module dependencies
- */
-
-var isString = require('lodash.isstring');
-var isError = require('lodash.iserror');
-var isUndefined = require('lodash.isundefined');
-
-
-/**
  * aimErrorAt()
  *
  * Build or modify an Error so that it is aimed towards the specified exit.
@@ -29,18 +20,18 @@ module.exports = function aimErrorAt (exitCodeName, errMsgOrError){
 
   // If an error instance was provided (i.e. for better stack trace),
   // then just modify its `exit` property.
-  if (isError(errMsgOrError)) {
+  if (typeof errMsgOrError === 'object' && errMsgOrError !== null && errMsgOrError.constructor && errMsgOrError.constructor.name === 'Error') {
     errMsgOrError.exit = exitCodeName;
     return errMsgOrError;
   }
   // Otherwise if it is an error message, instantiate a new error.
-  else if (isString(errMsgOrError)) {
+  else if (typeof errMsgOrError === 'string') {
     var err = new Error(errMsgOrError);
     err.exit = exitCodeName;
     return err;
   }
   // If no Error or error message was provided, build a default error and throw that.
-  else if (isUndefined(errMsgOrError)) {
+  else if (typeof errMsgOrError === 'undefined') {
     var defaultErr = new Error();
     defaultErr.exit = exitCodeName;
     return defaultErr;
